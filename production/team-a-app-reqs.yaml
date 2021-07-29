@@ -12,7 +12,7 @@ spec:
     repoURL: https://github.com/ripro-patrick/crossplane-kubevela-argocd-demo
     targetRevision: HEAD
   destination:
-    server: 
+    server: https://FDFE0C2AB8F6BF83AB6F13EE272E2A7D.gr7.eu-central-1.eks.amazonaws.com
     namespace: production
   syncPolicy:
     automated:
